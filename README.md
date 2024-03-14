@@ -29,6 +29,8 @@ When trading any asset, mathematical calculation-based indicators are commonly u
 - Binance API Documentation: [Binance API Docs](https://binance-docs.github.io/apidocs/spot/en/#general-info)
 - klines: https://binance-docs.github.io/apidocs/spot/en/#kline-candlestick-data
 - Current symbol information: https://binance-docs.github.io/apidocs/spot/en/#current-average-price
+  - last price endpoint: GET /api/v3/ticker/price
+
 
 ### TEST
 
