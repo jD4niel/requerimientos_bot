@@ -20,6 +20,7 @@ When trading any asset, mathematical calculation-based indicators are commonly u
    - The Binance public API will be used to fetch cryptocurrency data: [Binance API](https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=15m&limit=100).
    - If the script does not receive arguments, it should have default values to make the request.
    - The script will run infinitely, making constant requests to the Binance API to obtain data for RSI calculation.
+   - While the script is running you should print in terminal the following values: DATE - SYMBOL - PRICE - RSI_VALUE (Recommend logging library and enable colors)
 
 4. **RSI Rules**:
    - If RSI <= 30 or RSI >= 70, send notification.
@@ -27,9 +28,9 @@ When trading any asset, mathematical calculation-based indicators are commonly u
 #### Additional Information:
 - Binance API Documentation: [Binance API Docs](https://binance-docs.github.io/apidocs/spot/en/#general-info)
 
-### Pruebas
+### TEST
 
-Al ejecutar el script utilizando el siguiente comando en la terminal:
+Running the script in terminal should look like this:
 
 ```bash
 python main.py BTCUSDT 1h
