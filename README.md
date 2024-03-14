@@ -27,6 +27,7 @@ When trading any asset, mathematical calculation-based indicators are commonly u
 
 #### Additional Information:
 - Binance API Documentation: [Binance API Docs](https://binance-docs.github.io/apidocs/spot/en/#general-info)
+- klines: https://binance-docs.github.io/apidocs/spot/en/#kline-candlestick-data
 
 ### TEST
 
